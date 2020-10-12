@@ -1,11 +1,23 @@
 {
   "name": "web-nearby-locations",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "react-locations",
+    "web-nearby-locations",
+    "gmaps-web",
+    "view-locations",
+    "view-nearby-locations",
+    "angular-nearby-locations",
+    "maps-nearby-locations",
+    "angular-locations",
+    "viewjs-locations",
+    "locations"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
