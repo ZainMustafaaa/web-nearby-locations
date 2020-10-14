@@ -20,6 +20,13 @@ module.exports = class Location {
      * @return {Promise} promise
      */
     async fetchNearbyLocations(latitude, longitude, type) {
-        return axios.get(`https://maps.googleapis.com/maps/api/place/search/json?rankby=distance&keyword=${type}&location=${latitude},${longitude}&key=${this.key}&sensor=false&libraries=places`)
+        return new Promise(async (resolve, reject) => {
+            try {
+                const response = await axios.get(`https://maps.googleapis.com/maps/api/place/search/json?rankby=distance&keyword=${type}&location=${latitude},${longitude}&key=${this.key}&sensor=false&libraries=places`);
+                resolve(response.data);
+            } catch(e) {
+                reject(e.message);
+            }
+        })
     }
 };
