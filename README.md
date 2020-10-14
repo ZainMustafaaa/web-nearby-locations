@@ -7,7 +7,11 @@ Simple js library which fetch nearby desired locations based on user input
   
   const location = new Location(YOUR_GOOGLE_MAPS_KEY);
   
-  location.fetchNearbyLocations(21.3222, 32.3222, 'hospital');
+  location.fetchNearbyLocations(31.520370, 74.358749, 'hospital');
+
+  location.fetchNearbyLocations(31.520370, 74.358749, 'bank');
+
+  location.fetchNearbyLocations(31.520370, 74.358749, 'food');
 ```
 This will return a promise object and including array of nearby hospital locations.
 
