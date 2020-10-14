@@ -10,3 +10,6 @@ Simple js library which fetch nearby desired locations based on user input
   location.fetchNearbyLocations(21.3222, 32.3222, 'hospital');
 ```
 This will return a promise object and including array of nearby hospital locations.
+
+## NPM Package
+[Web-Nearby-Locations](https://www.npmjs.com/package/web-nearby-locations)
