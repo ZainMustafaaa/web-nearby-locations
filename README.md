@@ -13,7 +13,7 @@ Simple js library which fetch nearby desired locations based on user input
 
   location.fetchNearbyLocations(31.520370, 74.358749, 'food');
 ```
-This will return a promise object including array of nearby place locations.
+This will return a promise object including array of nearby places/locations.
 
 ## Github
 [Web-Nearby-Locations](https://github.com/ZainMustafaaa/web-nearby-locations)
