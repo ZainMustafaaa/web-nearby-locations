@@ -17,3 +17,6 @@ This will return a promise object and including array of nearby hospital locatio
 
 ## Github
 [Web-Nearby-Locations](https://github.com/ZainMustafaaa/web-nearby-locations)
+
+## NPM Package
+[Web-Nearby-Locations](https://www.npmjs.com/package/web-nearby-locations)
